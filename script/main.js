@@ -29,7 +29,7 @@ portfolioArray[3].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/calc/');
 })
 portfolioArray[4].addEventListener('click', () => {
-    window.open('https://mitskevich-paul.github.io/fixteam/');
+    window.open('https://fixteam.by/');
 })
 portfolioArray[5].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/js-hw/');
