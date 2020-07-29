@@ -81,7 +81,7 @@ h2 {
 .about-me_right-side {
     grid-column-start: 2;
     grid-column-end: 3;
-    background: url("../sources/RBCK2929.JPG");
+    background: url("../sources/me.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
