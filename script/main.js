@@ -23,13 +23,13 @@ portfolioArray[1].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/mounting_moto/');
 })
 portfolioArray[2].addEventListener('click', () => {
-    window.open('https://mitskevich-paul.github.io/fixteamnew/');
+    window.open('https://fixteam.by/');
 })
 portfolioArray[3].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/calc/');
 })
 portfolioArray[4].addEventListener('click', () => {
-    window.open('https://fixteam.by/');
+    window.open('https://mitskevich-paul.github.io/fixteam/');
 })
 portfolioArray[5].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/js-hw/');
