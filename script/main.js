@@ -17,13 +17,13 @@ document.addEventListener('scroll', () => {
 }) 
 let portfolioArray = document.querySelectorAll('.portfolio-project');
 portfolioArray[0].addEventListener('click', () => {
-    window.open('https://mitskevich-paul.github.io/');
+    window.open('http://fixteam.by');
 })
 portfolioArray[1].addEventListener('click', () => {
-    window.open('https://mitskevich-paul.github.io/mounting_moto/');
+    window.open('http://stivmebel.by');
 })
 portfolioArray[2].addEventListener('click', () => {
-    window.open('https://fixteam.by/');
+    window.open('https://skladok.by');
 })
 portfolioArray[3].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/calc/');
@@ -32,5 +32,5 @@ portfolioArray[4].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/fixteam/');
 })
 portfolioArray[5].addEventListener('click', () => {
-    window.open('https://mitskevich-paul.github.io/js-hw/');
+    window.open('https://mitskevich-paul.github.io/');
 })
