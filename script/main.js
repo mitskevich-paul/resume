@@ -26,7 +26,7 @@ portfolioArray[2].addEventListener('click', () => {
     window.open('https://skladok.by');
 })
 portfolioArray[3].addEventListener('click', () => {
-    window.open('https://mitskevich-paul.github.io/calc/');
+    window.open('https://Olmeko-mebel.by);
 })
 portfolioArray[4].addEventListener('click', () => {
     window.open('https://mitskevich-paul.github.io/fixteam/');
