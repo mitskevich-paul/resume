@@ -81,11 +81,12 @@ h2 {
 .about-me_right-side {
     grid-column-start: 2;
     grid-column-end: 3;
-    background: url("../sources/me.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: center / contain no-repeat url("../sources/me.jpg");
     height: 400px;
+    cursor: pointer;
+}
+.about-me_right-side:hover {
+    transform: scale(1.01);
 }
 .inf_about-me {
     padding-top: 20%;
@@ -100,7 +101,14 @@ h2 {
     grid-template-rows: 340px 340px;
     padding-top: 40px;
 }
+.portfolio-project-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .portfolio-project {
+    position: relative;
     display: block;
     margin: 0 auto;
     width: 300px;
@@ -191,8 +199,36 @@ h2 {
     color: black;
     padding-top: 20px;
 }
+.knowledge-p,
 .education-uni-p,
 .education-cours-p {
+    font-size: 20px;
+    font-family: Gabriela;
+    text-align: start;
+    color: black;
+    padding-top: 20px;
+}
+.knowledge {
+    width: 100%;
+   margin-top: 20px;
+}
+.knowledge p {
+    font-size: 19px;
+    font-family: Gabriela;
+    color: black;
+    margin: 10px auto 0;
+}
+.level-of-english {
+    width: 600px;
+    display: block;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+.level-of-english:hover {
+    transform: scale(1.01);
+}
+.about-knowledge {
+    margin: 20px 0;
     font-size: 20px;
     font-family: Gabriela;
     text-align: start;
@@ -331,6 +367,11 @@ footer a {
     }
     .menu a {
         margin: 0 1px;
+    }
+    .level-of-english {
+        width: 90%;
+        display: block;
+        margin: 20px auto 0;
     }
 }
 @media all and (max-width:450px) {
