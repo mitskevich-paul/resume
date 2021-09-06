@@ -25,7 +25,7 @@ document.addEventListener('click', event => {
     } else if (event.target === linksContainer[2]) {
         window.open('https://skladok.by');
     } else if (event.target === linksContainer[3]) {
-        window.open('https://mitskevich-paul.github.io/olmeko/');
+        window.open('https://olmeko-mebel.by');
     } else if (event.target === linksContainer[4]) {
         window.open('https://mitskevich-paul.github.io/fixteam/');
     } else if (event.target === linksContainer[5]) {
